@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b4dff; /* Purple background */
+    color: rgb(44, 165, 11);
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.bell {
+    font-size: 150px; /* Bell emoji size */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center; /* Ensure scaling occurs from the center */
+}
+
+.bell:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
